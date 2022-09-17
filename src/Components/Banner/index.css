@@ -1,0 +1,59 @@
+img.bw {
+  filter: grayscale(100%);
+}
+img.bw:hover {
+  filter: grayscale(0%);
+}
+.H1 {
+  position: absolute;
+  top: 45%;
+  left: 2%;
+}
+.H2 {
+  position: absolute;
+  top: 45%;
+  left: 53%;
+}
+.p1 {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+.p2 {
+  position: absolute;
+  top: 50%;
+  left: 53%;
+}
+.p3 {
+  position: absolute;
+  top: 99%;
+  left: 2%;
+}
+.H3 {
+  position: absolute;
+  top: 93%;
+  left: 2%;
+}
+.p4 {
+  position: absolute;
+  top: 99%;
+  left: 54%;
+}
+.H4 {
+  position: absolute;
+  top: 93%;
+  left: 54%;
+}
+.bdr {
+  filter: grayscale(100%);
+}
+.bdr:hover {
+  filter: grayscale(0%);
+  box-shadow: 2px 5px 2px 5px grey;
+  border-radius: 2px;
+}
+a .icon {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}

@@ -1,0 +1,53 @@
+.main {
+  position: relative;
+  width: 350px;
+  height: 450px;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+
+.main-inner {
+  /* background-image: url("https://vestdata.s3-ap-southeast-1.amazonaws.com/images/product-detail/23091A.jpg?AWSAccessKeyId=AKIAIDFUPPFIRLUWKC4A&Expires=1656572406&response-content-disposition=attachment%3B%20filename%3Dfile.jpg&Signature=NmaYlz5P5kTo6ryGQBEeaIpsgGA%3D"); */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+.main-inner:hover {
+  transform: rotateY(180deg);
+}
+.front {
+  background-image: url("https://vestdata.s3-ap-southeast-1.amazonaws.com/images/product-detail/23091A.jpg?AWSAccessKeyId=AKIAIDFUPPFIRLUWKC4A&Expires=1656572406&response-content-disposition=attachment%3B%20filename%3Dfile.jpg&Signature=NmaYlz5P5kTo6ryGQBEeaIpsgGA%3D");
+  /* height: 400px;
+  width: 800px; */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: rgb(219, 217, 217);
+  color: rgb(44, 43, 43);
+}
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #fafafa;
+  color: #333;
+  transform: rotateY(180deg);
+}
+/* .bg-image {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSsc0oi8pZTEVFpgFfdqoK126Ndg251d0gA&usqp=CAU");
+  height: 400px;
+  width: 800px;
+  background-repeat: no-repeat;
+} */
+.image {
+  width: 350px;
+  height: 300px;
+}
+.main-inner {
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 3px grey;
+}
